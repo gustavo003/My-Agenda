@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">My Agenda</string>
+    <string name="title_activity_anotacoes">Anotacoes</string>
+    <string name="title_activity_tarefas">Tarefas</string>
+    <string name="title_activity_lembretes">Lembretes</string>
+    <string name="title_activity_eventos">Eventos</string>
+</resources>

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.mrlizard.myagenda">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/icone"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        >
+        <activity android:name=".Activity.MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Activity.Anotacoes"
+            android:label="@string/title_activity_anotacoes"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Activity.Tarefas"
+            android:label="@string/title_activity_tarefas"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".Activity.AdicionarTarefa" />
+        <activity android:name=".Activity.AdicionarAnotacao" />
+        <activity android:name=".Activity.Meio_Anotacao" />
+        <activity android:name=".Activity.Meio_Tarefa" />
+        <activity
+            android:name=".Activity.Lembretes"
+            android:label="@string/title_activity_lembretes"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".Activity.AdicionarLembrete" />
+        <activity android:name=".Activity.Meio_Lembrete" />
+        <activity
+            android:name=".Activity.Eventos"
+            android:label="@string/title_activity_eventos"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".Activity.AdicionarEvento" />
+        <activity android:name=".Activity.Meio_evento"></activity>
+    </application>
+
+</manifest>
